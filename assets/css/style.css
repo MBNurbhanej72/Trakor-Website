@@ -225,6 +225,44 @@ header {
 
 
 
+/*=====  Start Bigger Team Section  =====*/
+
+.bigger-row {
+  gap: 80px;
+}
+
+.bigger-team-img {
+  /* width: 600px; */
+  width: 525px;
+  /* height: 408px; */
+  height: auto;
+}
+
+.bigger-h3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 52.8px;
+  color: var(--white-color);
+}
+
+.more-h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 52.8px;
+  color: var(--purple-color);
+}
+
+.bigger-row p {
+  font-size: 16px;
+  line-height: 28.8px;
+  color: var(--sub-text-color);
+  margin: 32px 0 153px;
+}
+
+/*=====  End Bigger Team Section  =====*/
+
+
+
 /* =====  Start Media Queries Section  ===== */
 
 
@@ -236,6 +274,9 @@ header {
 
 @media only screen and (max-width: 1200px) {
 
+  .bigger-team-img {
+    width: 470px;
+  }
 
   /*?  C - Width <= 1200px || B - 1200px to 1400px xl :- (Large Desktops)  ?*/
 }
@@ -261,6 +302,30 @@ header {
 
   .companies {
     gap: 34px;
+  }
+
+  .bigger-row p {
+    font-size: 13px;
+  }
+
+  .bigger-row {
+    gap: 50px;
+  }
+
+  .bigger-team-img {
+    width: 370px;
+  }
+
+  .bigger-h3 {
+    font-size: 45px;
+  }
+
+  .more-h2 {
+    font-size: 45px;
+  }
+
+  .bigger-row p {
+    font-size: 11px;
   }
 
   /*?  C - Width <= 992px || B - 992px to 1200px lg :- (Desktops, Laptops, Large Tablets)  ?*/
@@ -298,6 +363,10 @@ header {
 
   .team p {
     font-size: 17px;
+  }
+
+  .bigger-row {
+    text-align: center;
   }
 
   /*?  C - Width <= 768px || B - 768px to 992px md :- (Tablets and small desktops)  ?*/
@@ -356,6 +425,10 @@ header {
     font-size: 16px;
     line-height: 22.4px;
     margin-bottom: 48px !important;
+  }
+
+  .bigger-h3 {
+    margin-top: 48px;
   }
 
   /*?  C - Width <= 576px || B - 576px to 768px sm :- (Landscape and Portrait mobiles)  ?*/
