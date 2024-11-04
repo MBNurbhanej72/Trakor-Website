@@ -337,6 +337,30 @@ span p {
 
 
 
+/*=====  Start Team Management Section  =====*/
+
+.management-img {
+  width: 600px;
+  height: 555px;
+  margin: 80px 0;
+}
+
+.team-h3 {
+  margin-top: 160px;
+}
+
+.team-2-h3 {
+  font-size: 38px;
+}
+
+.team-btn {
+  margin-bottom: 160px;
+}
+
+/*=====  End Team Management Section  =====*/
+
+
+
 /* =====  Start Media Queries Section  ===== */
 
 
@@ -369,6 +393,27 @@ span p {
 
   .tool-h3 {
     margin-top: 125px;
+  }
+
+  .management-img {
+    width: 500px;
+    height: auto;
+  }
+
+  .team-h3 {
+    font-size: 40px;
+  }
+
+  .team-2-h3 {
+    font-size: 30px;
+  }
+
+  .team-list p {
+    font-size: 14px;
+  }
+
+  .team-btn {
+    padding: 10px 30px;
   }
 
   /*?  C - Width <= 1200px || B - 1200px to 1400px xl :- (Large Desktops)  ?*/
@@ -454,6 +499,33 @@ span p {
     font-size: 15px;
   }
 
+  .management-img {
+    width: 400px;
+  }
+
+  .team-h3 {
+    font-size: 30px;
+    line-height: 26.4px;
+  }
+
+  .team-2-h3 {
+    font-size: 20px;
+    line-height: 26.4px;
+  }
+
+  .team-p {
+    font-size: 12px;
+  }
+
+  .team-list p {
+    font-size: 10px;
+  }
+
+  .team-btn {
+    padding: 5px 20px;
+    font-size: 15px;
+  }
+
   /*?  C - Width <= 992px || B - 992px to 1200px lg :- (Desktops, Laptops, Large Tablets)  ?*/
 }
 
@@ -523,6 +595,19 @@ span p {
 
   .tools-img-2 {
     width: 400px;
+    margin-bottom: 48px !important;
+  }
+
+  .team-h3 {
+    margin-top: 48px;
+  }
+
+  .team-btn {
+    margin-bottom: 0;
+  }
+
+  .management-img {
+    margin-top: 0;
   }
 
   /*?  C - Width <= 768px || B - 768px to 992px md :- (Tablets and small desktops)  ?*/
