@@ -62,6 +62,100 @@ body {
 
 
 
+/*=====  Start Navbar Section  =====*/
+
+.nav-container {
+  padding: 20px 0;
+  gap: 202px;
+}
+
+.navbar-brand {
+  color: var(--white-color);
+}
+
+.navbar-brand h5 {
+  width: 230px;
+}
+
+.navbar-brand:hover {
+  color: var(--white-color) !important;
+}
+
+.navbar-brand:focus {
+  color: var(--white-color) !important;
+}
+
+.nav-link {
+  color: var(--white-color);
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+  color: var(--white-color) !important;
+}
+
+.nav-link:focus {
+  color: var(--white-color) !important;
+}
+
+a h5 {
+  font-family: "Roboto-Bold";
+  font-size: 32px;
+  line-height: 35.2px;
+}
+
+.navbar-btn {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-login {
+  padding: 11.5px 8px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: var(--white-color);
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.nav-request {
+  padding: 11.5px 25px !important;
+  font-family: "Roboto-Medium" !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  letter-spacing: 0.5px !important;
+}
+
+.navbar-toggler {
+  background-color: var(--grey-color);
+  border: 1px solid var(--grey-border);
+  padding: 0;
+  height: 48px;
+  width: 48px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.fa-bars {
+  color: var(--white-color) !important;
+  font-size: 24px;
+}
+
+.navbar-nav {
+  gap: 16px;
+}
+
+/*=====  End Navbar Section  =====*/
+
+
+
 /*=====  Start Header Section  =====*/
 
 header {
@@ -410,34 +504,35 @@ span p {
 
 .work-section {
   background-color: var(--dark-grey-color);
-  padding: 80px 0 0 0;
   display: flex;
-  gap: 80px;
+  padding-top: 20px;
+  overflow: hidden;
+
 }
 
-.work-container {
-  margin-right: 0;
+.container-work {
+  width: 100%;
+}
+
+.work-content {
+  padding: 50px 40px 70px 70px !important;
+}
+
+.work-img-div {
+  width: 100%;
 }
 
 .work-img {
-  width: 500px;
   height: 380px;
   border-top-left-radius: 20px;
-  box-shadow: 0px 0px 10px 0px #00000012;
-  box-shadow: 0px 20px 25px -5px #0000001A;
-}
-
-.work-h3 {
-  margin-top: 54px;
+  width: 100%;
 }
 
 .work-p {
   margin-bottom: 32px !important;
 }
 
-.work-btn {
-  margin-bottom: 134px !important;
-}
+
 
 /*=====  End Work Section  =====*/
 
